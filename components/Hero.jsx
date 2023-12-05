@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Web Developer
             </div>
-            <h1 className="h1">Hello, Illés Ákos hívnak</h1>
+            <h1 className="h1">Hello, Illés Ákosnak hívnak</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Szakértelmem a honlapkészítés, a honlaptervezés, fénykép
               szerkesztés és még sok más...
