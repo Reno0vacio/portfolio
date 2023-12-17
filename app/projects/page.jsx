@@ -20,6 +20,13 @@ const projectData = [
     link: "https://larphun.hu",
     github: "/",
   },
+    {
+    image: "/work/halabalatrans.png",
+    category: "react js",
+    name: "Halabalatrans",
+    description: "Egy költöztető cég oldala, ahol az árakat lehet megtekinteni.",
+    link: "https://halabalatrans.com"
+  },
 ];
 
 const uniqueCategories = [
