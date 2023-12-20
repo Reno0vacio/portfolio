@@ -12,19 +12,19 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
   {
-    image: "/work/portfolio-2.png",
-    category: "php",
-    name: "LA RolePlay Website",
+    image: "/work/halabalatrans.png",
+    category: "react js",
+    name: "Halabalatrans",
     description:
-      "PayPal fizetési mód integráció és játékszerverre való automatikus frissítés",
-    link: "https://larphun.hu",
+      "Egy költöztető cég oldala, ahol az árakat lehet megtekinteni.",
+    link: "https://halabalatrans.com",
   },
   {
     image: "/work/flowershop.png",
     category: "react js",
     name: "Virágbolt Portfólio oldal",
     description: "Egyszerű egy oldalas weboldal virágüzletek számára",
-    link: "https://larphun.hu",
+    link: "https://flowershop-eight.vercel.app/",
     github: "/",
   },
 ];
