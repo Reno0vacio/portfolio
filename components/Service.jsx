@@ -1,4 +1,4 @@
-import { Code, Paintbrush2, Gem, Image, Aperture, Cpu } from "lucide-react";
+import { Code, Paintbrush2, Gem, BookOpen, Cpu } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -12,36 +12,36 @@ const servicesData = [
     icon: <Code size={72} strokeWidth={0.8} />,
     title: "Weboldal Fejlesztés",
     desription:
-      "Weboldalak készítését vállalom, és nincsenek korlátok azokban az elképzelésekben, amelyeket a kliens megvalósítani szeretne. Bármilyen specifikáció alapján készen állok a projektre.",
+      "Weboldal készítést vállalok, és nincs lehetetlen amit nem lehetne megcsinálni.",
   },
   {
     icon: <Paintbrush2 size={72} strokeWidth={0.8} />,
     title: "Weboldal Design készítés",
     desription:
-      "Weboldalak tervezésekor mindig az első lépés a koncepció kidolgozása, hogy meghatározzam, milyen kinézetet és struktúrákat szeretnék elérni.",
+      "Weboldal kinézetének megtervezését vállaom még a fejlesztési szakasz előtt.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: "WordPress oldal készítés",
     desription:
-      "Weboldal fejlesztés során a WordPress segítségével történik. Továbbá ha karbantartást veszi igényben akkor a pluginokat és egyéb funkciókat vizsgálom meg és ha szükséges javítok rajta",
-  },
-  {
-    icon: <Image size={72} strokeWidth={0.8} />,
-    title: "Fénykép Szerkesztés",
-    desription:
-      "A szolgáltatásom a fénykép szerkesztésre fókuszál, hogy az általad készített képek még hatásosabbak és vonzóbbak legyenek.",
-  },
-  {
-    icon: <Aperture size={72} strokeWidth={0.8} />,
-    title: "Videó Vágás",
-    desription:
-      "Az általam kínált videó szerkesztési szolgáltatás segítségével az általad rögzített videók még látványosabbá és hatásosabbá válhatnak.",
+      "WordPress oldal készítést vállalok. Ezek karbantartása, javítása és módosítása",
   },
   {
     icon: <Cpu size={72} strokeWidth={0.8} />,
     title: "Számítógép Szervizelés",
     desription: "Számítógép telepítés és alkatrészcsere.",
+  },
+  {
+    icon: <Code size={72} strokeWidth={0.8} />,
+    title: "FiveM Játékszerver Fejlesztés",
+    desription:
+      "Több mint 3 éves tapasztalattal FiveM szerver fejlesztést vállalok.",
+  },
+  {
+    icon: <BookOpen size={72} strokeWidth={0.8} />,
+    title: "Tanácsadás",
+    desription:
+      "Tanácsadás a fejlesztéssel vagy számítógépekkel kapcsolatosan a tapasztalatom alapján",
   },
 ];
 const Service = () => {
