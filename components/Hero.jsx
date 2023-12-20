@@ -34,12 +34,14 @@ const Hero = () => {
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
               <Link href="/contact">
                 <Button className="gap-x-2">
-                  Contact Me <Send size={18} />{" "}
+                  Kapcsolat <Send size={18} />{" "}
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2">
-                Download <Download size={18} />{" "}
-              </Button>
+              <Link href="/files/oneletrajz.pdf">
+                <Button variant="secondary" className="gap-x-2">
+                  Önéletrajz <Download size={18} />{" "}
+                </Button>
+              </Link>
             </div>
             {/* socials */}
             <Socials
