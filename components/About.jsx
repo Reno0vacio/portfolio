@@ -144,10 +144,10 @@ const About = () => {
             <Tabs defaultValue="personal">
               <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none">
                 <TabsTrigger className="w-[162px] xl:w-auto" value="personal">
-                  Personal Info
+                  Személyes Információk
                 </TabsTrigger>
                 <TabsTrigger value="tapasztalat">Tapasztalat</TabsTrigger>
-                <TabsTrigger value="skills">Skill</TabsTrigger>
+                <TabsTrigger value="skills">Készségek</TabsTrigger>
               </TabsList>
 
               <div className="text-lg mt-12 xl:mt-8">
@@ -179,7 +179,7 @@ const About = () => {
                     </div>
                     {/* Language skills */}
                     <div className="flex flex-col  gap-y-2">
-                      <div className="text-primary">Language Skills</div>
+                      <div className="text-primary">Nyelvi tudás</div>
                       <div className="border-b border-border"></div>
                       <div>English, Hungarian</div>
                     </div>

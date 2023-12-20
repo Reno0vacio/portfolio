@@ -6,15 +6,15 @@ import Link from "next/link";
 
 const icons = [
   {
-    path: "/",
+    path: "https://www.linkedin.com/in/akosilles",
     name: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/akiilles05",
     name: <RiGithubFill />,
   },
   {
-    path: "/",
+    path: "https://www.facebook.com/illesinnovate",
     name: <RiFacebookFill />,
   },
 ];
