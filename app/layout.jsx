@@ -1,4 +1,4 @@
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 
@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
           {children}
+          {/* vercel */}
           <Analytics />
           <Footer />
         </ThemeProvider>
