@@ -12,6 +12,19 @@ export const metadata = {
   title: "Illés Ákos (IllésInnovate)",
   description:
     "Illés Ákos - weboldal fejlesztés, tervezés és karbantartás Győrben. Kedvezményes árak és megbízható szolgáltatások. Látogass el oldalunkra.",
+  locale: "hu_HU",
+  type: "website",
+  siteName: "Illés Ákos (IllésInnovate)",
+  keywords: [
+    "illés",
+    "ákos",
+    "illésinnovate",
+    "weboldal fejlesztés",
+    "weboldal",
+    "győr",
+    "fejlesztés",
+    "wordpress",
+  ],
 };
 
 export default function RootLayout({ children }) {
