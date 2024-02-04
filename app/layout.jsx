@@ -5,6 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -39,6 +40,7 @@ export default function RootLayout({ children }) {
           <Footer />
         </ThemeProvider>
       </body>
+      <GoogleAnalytics gaId="G-976FLB6TWF" />
     </html>
   );
 }

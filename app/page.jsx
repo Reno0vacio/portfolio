@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Service from "@/components/Service";
 import Work from "@/components/Work";
 import Image from "next/image";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Service />
       <Work />
       <Cta />
+      <GoogleAnalytics gaId="G-976FLB6TWF" />
     </main>
   );
 }
