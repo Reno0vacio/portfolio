@@ -5,6 +5,14 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/mexmex.png",
+    category: "wordpress",
+    name: "Mex&Mex",
+    description:
+        "Személyszállítás és reptéri transzfer vállalat weboldala amely WordPress motor segítségével készült .",
+    link: "https://mexmex.hu/",
+  },
+  {
     image: "/work/portfolio-2.png",
     category: "php",
     name: "LA RolePlay Website",

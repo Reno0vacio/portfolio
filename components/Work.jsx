@@ -12,12 +12,20 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
   {
+    image: "/work/mexmex.png",
+    category: "wordpress",
+    name: "Mex&Mex",
+    description:
+        "Személyszállítás és reptéri transzfer vállalat weboldala amely WordPress motor segítségével készült .",
+    link: "https://mexmex.hu/",
+  },
+  {
     image: "/work/halabalatrans.png",
     category: "react js",
     name: "Halabalatrans",
     description:
       "Egy költöztető cég oldala, ahol az árakat lehet megtekinteni.",
-    link: "https://halabalatrans.com",
+    link: "https://halabalatrans-v2.vercel.app/",
   },
   {
     image: "/work/flowershop.png",
@@ -26,6 +34,14 @@ const projectData = [
     description: "Egyszerű egy oldalas weboldal virágüzletek számára",
     link: "https://flowershop-eight.vercel.app/",
     github: "/",
+  },
+  {
+    image: "/work/portfolio-2.png",
+    category: "php",
+    name: "LA RolePlay Website",
+    description:
+        "PayPal fizetési mód integráció és játékszerverre való automatikus frissítés",
+    link: "https://larphun.hu",
   },
 ];
 
