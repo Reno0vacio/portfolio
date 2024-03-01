@@ -13,29 +13,31 @@ const projectData = [
     link: "https://mexmex.hu/",
   },
   {
-    image: "/work/portfolio-2.png",
-    category: "php",
-    name: "LA RolePlay Website",
+    image: "/work/halabalatrans.png",
+    category: "react js",
+    name: "Halabalatrans",
     description:
-      "PayPal fizetési mód integráció és játékszerverre való automatikus frissítés",
-    link: "https://larphun.hu",
+        "Egy költöztető cég oldala, ahol az árakat lehet megtekinteni.",
+    link: "https://halabalatrans-v2.vercel.app/",
   },
   {
     image: "/work/flowershop.png",
     category: "react js",
     name: "Virágbolt Portfólio oldal",
     description: "Egyszerű egy oldalas weboldal virágüzletek számára",
-    link: "https://larphun.hu",
+    link: "https://flowershop-eight.vercel.app/",
     github: "/",
   },
-    {
-    image: "/work/halabalatrans.png",
-    category: "react js",
-    name: "Halabalatrans",
-    description: "Egy költöztető cég oldala, ahol az árakat lehet megtekinteni.",
-    link: "https://halabalatrans.com"
+  {
+    image: "/work/portfolio-2.png",
+    category: "php",
+    name: "LA RolePlay Website",
+    description:
+        "PayPal fizetési mód integráció és játékszerverre való automatikus frissítés",
+    link: "https://larphun.hu",
   },
 ];
+
 
 const uniqueCategories = [
   "összes projekt",
