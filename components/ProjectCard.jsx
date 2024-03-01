@@ -19,14 +19,19 @@ const ProjectCard = ({ project }) => {
             priority
           />
           {/* btns */}
-          <div>
+          <div className="flex gap-x-4">
             <Link
               href={project.link}
               className="bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
             >
               <Link2Icon className="text-white" />
-              <Github className="text-white" />
             </Link>
+            {/*<Link*/}
+            {/*    href={project.github}*/}
+            {/*    className="bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"*/}
+            {/*>*/}
+            {/*  <Github className="text-white" />*/}
+            {/*</Link>*/}
           </div>
         </div>
       </CardHeader>
@@ -36,6 +41,7 @@ const ProjectCard = ({ project }) => {
         </Badge>
         <h4 className="h4 mb-1">{project.name}</h4>
         <p className="text-muted-foreground text-lg">{project.description}</p>
+        <p className="font-semibold italic text-lg">{project.github}</p>
       </div>
     </Card>
   );

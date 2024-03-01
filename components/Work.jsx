@@ -18,6 +18,7 @@ const projectData = [
     description:
         "Személyszállítás és reptéri transzfer vállalat weboldala amely WordPress motor segítségével készült .",
     link: "https://mexmex.hu/",
+    github: "",
   },
   {
     image: "/work/halabalatrans.png",
@@ -26,6 +27,7 @@ const projectData = [
     description:
       "Egy költöztető cég oldala, ahol az árakat lehet megtekinteni.",
     link: "https://halabalatrans-v2.vercel.app/",
+    github: "",
   },
   {
     image: "/work/flowershop.png",
@@ -42,6 +44,7 @@ const projectData = [
     description:
         "PayPal fizetési mód integráció és játékszerverre való automatikus frissítés",
     link: "https://larphun.hu",
+    github: "",
   },
 ];
 
