@@ -38,16 +38,16 @@ const projectData = [
 ];
 
 const uniqueCategories = [
-  "all projects",
+  "összes projekt",
   ...new Set(projectData.map((item) => item.category)),
 ];
 
 const Projects = () => {
   const [categories, setCategories] = useState(uniqueCategories);
-  const [category, setCategory] = useState("all projects");
+  const [category, setCategory] = useState("összes projekt");
 
   const filteredProjects = projectData.filter((project) => {
-    return category === "all projects"
+    return category === "összes projekt"
       ? project
       : project.category === category;
   });

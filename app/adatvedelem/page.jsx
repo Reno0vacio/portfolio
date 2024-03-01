@@ -4,7 +4,7 @@ const Adatvedelem = () => {
     return (
         <section className="adatvedelem bg-gray-100 py-12">
             <div className="container mx-auto">
-                <h2 className="section-title mb-8 xl:mb-16 text-center text-3xl font-bold">
+                <h2 className="section-title m:text-[15px] mb-8 xl:mb-16 text-center text-3xl font-bold">
                     Adatvédelmi Tájékoztató
                 </h2>
 
