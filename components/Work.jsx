@@ -33,7 +33,7 @@ const projectData = [
     name: "Virágbolt Portfólio oldal",
     description: "Egyszerű egy oldalas weboldal virágüzletek számára",
     link: "https://flowershop-eight.vercel.app/",
-    github: "/",
+    github: "https://github.com/akiilles05/flowershop",
   },
   {
     image: "/work/portfolio-2.png",
