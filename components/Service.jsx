@@ -10,13 +10,13 @@ import {
 const servicesData = [
   {
     icon: <Code size={72} strokeWidth={0.8} />,
-    title: "Weboldal Fejlesztés",
+    title: "Weboldal Készítés",
     desription:
       "Weboldal készítést vállalok, és nincs lehetetlen amit nem lehetne megcsinálni.",
   },
   {
     icon: <Paintbrush2 size={72} strokeWidth={0.8} />,
-    title: "Weboldal Design készítés",
+    title: "Weboldal Design Készítés",
     desription:
       "Weboldal kinézetének megtervezését vállaom még a fejlesztési szakasz előtt.",
   },
