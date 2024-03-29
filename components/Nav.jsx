@@ -16,15 +16,17 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
       <nav className="hidden sm:flex">
         <ul className="hidden sm:flex">
           <Link href="/">
-            <li className="ml-10 hover:border-b text-xl">Kezdőlap</li>
+            <li className="ml-10 uppercase hover:text-primary transition-all hover:border-b text-xl">
+              Kezdőlap
+            </li>
           </Link>
           <Link href="/projects">
-            <li className="ml-10 uppercase hover:border-b text-xl">
+            <li className="ml-10 uppercase hover:text-primary transition-all hover:border-b text-xl">
               Projektek
             </li>
           </Link>
           <Link href="/contact">
-            <li className="ml-10 uppercase hover:border-b text-xl">
+            <li className="ml-10 uppercase hover:text-primary transition-all active: hover:border-b text-xl">
               Kapcsolat
             </li>
           </Link>
