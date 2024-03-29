@@ -31,6 +31,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="hu" suppressContentEditableWarning>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="XsIBMtmOONNSboUzsxodVKLnc0r3owhl9uB3ZbtQR6o"
+        />
+      </head>
       <body className={outfit.className}>
         <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
