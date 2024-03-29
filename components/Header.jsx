@@ -37,12 +37,13 @@ const Header = () => {
               linkStyles="relative hover:text-primary transition-all"
               underlineStyles="absolute left-0 top-full h-[2px] bg-primary w-full"
             />
+            {/* <Nav /> */}
             <ThemeToggler />
 
             {/* mobile nav */}
-            <div className="xl:hidden">
+            {/* <div className="xl:hidden">
               <MobileNav />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

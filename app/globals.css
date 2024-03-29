@@ -1,9 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
-@layer base {
+  @layer base {
     :root {
       --background: 0 0% 100%;
       --foreground: 240 10% 3.9%;
@@ -51,7 +51,7 @@
     }
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;
@@ -61,39 +61,37 @@
   }
 }
 
-.h1{
-  @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold
+.h1 {
+  @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
 }
 
-.h2{
-    @apply text-4xl font-bold
+.h2 {
+  @apply text-4xl font-bold;
 }
 
-.h3{
-  @apply text-3xl font-bold
+.h3 {
+  @apply text-3xl font-bold;
 }
 
-.subtitle{
-  @apply text-muted-foreground text-lg mb-8 font-light
+.subtitle {
+  @apply text-muted-foreground text-lg mb-8 font-light;
 }
 
-.badge{
-  @apply z-10 w-[200px] h-[68px] bg-white dark:backdrop-blur-[44px] shadow-2xl p-4 rounded-[10px] flex items-center gap-x-4
+.badge {
+  @apply z-10 w-[200px] h-[68px] bg-white dark:backdrop-blur-[44px] shadow-2xl p-4 rounded-[10px] flex items-center gap-x-4;
 }
 
-.section-title{
-  @apply text-xl font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots_light before:dark:bg-dots_dark before:bg-no-repeat before:bg-center before:w-[24px] before:h-[24px]
+.section-title {
+  @apply text-xl font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots_light before:dark:bg-dots_dark before:bg-no-repeat before:bg-center before:w-[24px] before:h-[24px];
 }
 
 @media (min-width: 768px) {
-  .section-title{
-    @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots_light before:dark:bg-dots_dark before:bg-no-repeat before:bg-center before:w-[24px] before:h-[24px]
+  .section-title {
+    @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots_light before:dark:bg-dots_dark before:bg-no-repeat before:bg-center before:w-[24px] before:h-[24px];
   }
 }
 
-
-
-.profileimg{
+.profileimg {
   top: 15%;
 }
 
@@ -104,6 +102,27 @@
 /* swiper bullets styles */
 .swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet{
-    @apply bg-primary
+  .swiper-pagination-bullet {
+  @apply bg-primary;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #16a34a;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #16a34a;
 }

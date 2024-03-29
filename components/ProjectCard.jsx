@@ -40,8 +40,12 @@ const ProjectCard = ({ project }) => {
           {project.category}
         </Badge>
         <h4 className="h4 mb-1">{project.name}</h4>
-        <p className="text-muted-foreground text-lg">{project.description}</p>
-        <p className="font-semibold italic text-lg">{project.github}</p>
+        <div className="max-h-[100px] overflow-y-clip pb-7">
+          <p className="text-muted-foreground text-lg">{project.description}</p>
+          <p className="font-semibold italic text-lg">
+            <a href={project.github}>{project.github}</a>
+          </p>
+        </div>
       </div>
     </Card>
   );
